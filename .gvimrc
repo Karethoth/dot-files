@@ -1,2 +1,3 @@
-set guifont=Inconsolata\ 8
+set guifont=Inconsolata:h12
+colorscheme wombat
 

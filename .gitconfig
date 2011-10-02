@@ -2,7 +2,14 @@
 	email = karethoth@gmail.com
 	name = Arttu Multanen
 [color]
+	diff = auto
+	status = auto
+	branch = auto
 	ui = auto
+	interactive = true
+[core]
+	symlinks = false
+	autocrlf = true
 [diff]
 	renames = copies
 	mnemonicprefix = true
@@ -19,3 +26,5 @@
 	br = branch
 	lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
 	ca = commit -a
+[help]
+	format = html
